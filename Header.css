@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background: rgb(87, 72, 124);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transition: transform 0.4s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+}
+
+.header.visible {
+  transform: translateY(0);
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+  
+}

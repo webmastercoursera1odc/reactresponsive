@@ -1,0 +1,10 @@
+.landing {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.avatar {
+  width: 160px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
